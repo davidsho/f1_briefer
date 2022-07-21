@@ -110,6 +110,7 @@ session.load()
 filename = visualise_lap(track, year, weekend.EventName, session.laps.pick_fastest())
 lat, lon = getCoords(weekend.Location)
 weather = weather_forecast(lat, lon)
+
 year = 2022
 session = "R"
 session, weekend = load_session(year, track, session)
